@@ -1,0 +1,31 @@
+:root {
+  /* Default Pastel Palette */
+  --pastel-pink: #F7C8D8;
+  --pastel-lavender: #DCCEF9;
+  --pastel-blue: #C9E7F5;
+  --pastel-mint: #CDEDDC;
+  --pastel-yellow: #F9E7A8;
+  --pastel-peach: #FFD5C2;
+  --background: #FFF9F1;
+  --text: #34313A;
+  --accent: #E88BA7;
+  --secondary: #9B86D4;
+  --card-bg: rgba(255, 255, 255, 0.75);
+  --border-color: rgba(52, 49, 58, 0.08);
+
+  /* Typography Variables */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-mono: 'Space Grotesk', monospace;
+
+  /* Spacing & Borders */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-soft: 0 10px 30px -10px rgba(52, 49, 58, 0.08);
+  --shadow-hover: 0 20px 40px -15px rgba(52, 49, 58, 0.12);
+  --shadow-polaroid: 0 14px 28px rgba(0, 0, 0, 0.06), 0 10px 10px rgba(0, 0, 0, 0.04);
+}

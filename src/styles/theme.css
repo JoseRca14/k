@@ -1,0 +1,103 @@
+/* Base Theme Styles */
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+h1, h2, h3, .font-serif-custom {
+  font-family: var(--font-serif);
+}
+
+.font-sans-custom {
+  font-family: var(--font-sans);
+}
+
+.font-mono-custom {
+  font-family: var(--font-mono);
+}
+
+/* Scrapbook & Polaroid Effects */
+.polaroid-card {
+  background: #ffffff;
+  padding: 12px 12px 28px 12px;
+  border-radius: 4px;
+  box-shadow: var(--shadow-polaroid);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  position: relative;
+}
+
+.polaroid-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: var(--shadow-hover);
+  z-index: 10;
+}
+
+/* Washi Tape / Sticker Effect */
+.washi-tape {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-2deg);
+  width: 90px;
+  height: 24px;
+  background-color: rgba(247, 200, 216, 0.65);
+  backdrop-filter: blur(2px);
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.washi-tape-mint {
+  background-color: rgba(205, 237, 220, 0.7);
+}
+
+.washi-tape-yellow {
+  background-color: rgba(249, 231, 168, 0.7);
+}
+
+.washi-tape-lavender {
+  background-color: rgba(220, 206, 249, 0.7);
+}
+
+.washi-tape-blue {
+  background-color: rgba(201, 231, 245, 0.7);
+}
+
+/* Glassmorphism Pastel */
+.glass-pastel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: var(--shadow-soft);
+}
+
+/* Custom modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8D9CE;
+  border-radius: 9999px;
+  border: 2px solid var(--background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pastel-pink);
+}
+
+/* Subtle dotted grid texture */
+.dot-pattern {
+  background-image: radial-gradient(rgba(52, 49, 58, 0.08) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
