@@ -1,0 +1,393 @@
+{
+  "personal": {
+    "recipientName": "KEY",
+    "senderName": "Jose Ramon",
+    "birthDate": "9/10/2000",
+    "relationshipStartDate": "2023-11-15",
+    "heroSubtitle": "Hoy celebramos tu día, tu luz y cada momento que hace tu existencia tan especial.",
+    "heroBadge": "01 / TU CUMPLEAÑOS MI NIÑA",
+    "heroImage": "/assets/images/foto1.jpeg"
+  },
+  "intro": {
+    "greeting": "Holis",
+    "subtitle": "Te hice algo muy especial",
+    "buttonText": "Entrar a tu regalo→"
+  },
+  "theme": {
+    "currentPreset": "sky-blue",
+    "colors": {
+      "pastelPink": "#D6EBF8",
+      "pastelLavender": "#CFE4FA",
+      "pastelBlue": "#C9E7F5",
+      "pastelMint": "#C6EDEE",
+      "pastelYellow": "#F9E7A8",
+      "pastelPeach": "#FDE4DC",
+      "background": "#F6FAFD",
+      "text": "#283645",
+      "accent": "#5E9FC6",
+      "secondary": "#7CB9E8"
+    },
+    "typography": {
+      "primaryFont": "Plus Jakarta Sans",
+      "secondaryFont": "Playfair Display",
+      "baseFontSize": "16px",
+      "headingWeight": "700"
+    }
+  },
+  "music": {
+    "backgroundMusicUrl": "/assets/music/Virlán García - MMXX's [Official Video] - ShowBusiness.mp3",
+    "backgroundMusicTitle": "MMXX's",
+    "backgroundMusicArtist": "Virlán García",
+    "autoPlayOnEnter": true,
+    "defaultVolume": 0.7,
+    "loop": true
+  },
+  "voiceMessage": {
+    "enabled": false,
+    "audioUrl": "/assets/audio/message.mp3",
+    "title": "escucha esto cuando estés sola.",
+    "subtitle": "un pequeño audio grabado con mucho cariño solo para tus oídos.",
+    "duration": "01:24"
+  },
+  "video": {
+    "enabled": true,
+    "videoUrl": "/assets/video/memory.mp4",
+    "title": "Me encanta como te emocionaste ese dia",
+    "caption": "Porque hay sonrisas y miradas que una sola foto no puede capturar.",
+    "posterUrl": "/assets/video/memory.mp4"
+  },
+  "letter": {
+    "title": "para ti.",
+    "subtitle": "Unas palabras desde el corazón en tu día",
+    "paragraphs": [
+      "Hoy que cumples un año más de vida, quise regalarte algo diferente. No una invitación ni una página genérica, sino un rinconcito hecho con mis propias manos para guardar lo que somos y lo que significas para mí.",
+      "Gracias por tu risa cuando las cosas se complican, por tu complicidad en las mañanas tranquilas y por recordarme lo lindo que es compartir el camino con alguien como tú.",
+      "Deseo que este nuevo año esté lleno de proyectos cumplidos, viajes inolvidables, abrazos apretados y días felices. Aquí siempre estaré para celebrar tus victorias y acompañarte en cada paso.",
+      "Feliz cumpleaños, [NOMBRE]. Te quiero con todo mi corazón."
+    ],
+    "signOff": "Con todo mi amor,",
+    "date": "[FECHA]"
+  },
+  "memories": [
+    {
+      "id": "memory-1",
+      "date": "21/ sep /2023",
+      "title": "Primera foto juntos",
+      "description": "El día en que todo empezó a sentirse diferente y descubrimos lo fácil que era reír juntos durante horas.",
+      "imageUrl": "/assets/images/gallery/memory1.jpg",
+      "pastelColor": "#F7C8D8",
+      "layoutStyle": "polaroid"
+    },
+    {
+      "id": "memory-2",
+      "date": "15/feb/2025",
+      "title": "Una noche de mascarillas",
+      "description": "Me encanta tener esos pequños momentos a tu lado mi vida",
+      "imageUrl": "/assets/images/gallery/memory2.jpg",
+      "pastelColor": "#DCCEF9",
+      "layoutStyle": "editorial"
+    },
+    {
+      "id": "memory-3",
+      "date": "18/abr/2025",
+      "title": "Una tarde llena de sonrisas",
+      "description": "Haciendo de un día común y corriente uno de los momentos más bonitos del mes.",
+      "imageUrl": "/assets/images/gallery/memory3.jpg",
+      "pastelColor": "#C9E7F5",
+      "layoutStyle": "split"
+    },
+    {
+      "id": "memory-4",
+      "date": "1/ene/2024",
+      "title": "Nuesrtro Primer Año Nuevo Juntos",
+      "description": "El Primero de muchos mas años juntos mi vida",
+      "imageUrl": "/assets/images/gallery/memory4.jpg",
+      "pastelColor": "#CDEDDC",
+      "layoutStyle": "card"
+    }
+  ],
+  "photoStory": {
+    "title": "¿Te acuerdas de este día?",
+    "subtitle": "Una foto, una historia guardada para siempre",
+    "imageUrl": "/assets/images/gallery/memory1.jpg",
+    "story": "Estábamos agotados pero no queríamos que terminara el día. Nos sentamos un momento y tomé esta foto sin que te dieras cuenta. Capturó exactamente la paz que siempre me das.",
+    "date": "[FECHA]"
+  },
+  "gallery": [
+    {
+      "id": "photo-1",
+      "imageUrl": "/assets/images/gallery/photo1.jpg",
+      "caption": "Compartir todo contigo no tiene precio",
+      "orientation": "vertical",
+      "tilt": -2,
+      "tapeColor": "pink"
+    },
+    {
+      "id": "photo-2",
+      "imageUrl": "/assets/images/gallery/photo2.jpg",
+      "caption": "Aquel atardecer que parecía pintado solo para nosotros.",
+      "orientation": "horizontal",
+      "tilt": 1.5,
+      "tapeColor": "mint"
+    },
+    {
+      "id": "photo-3",
+      "imageUrl": "/assets/images/gallery/photo3.jpg",
+      "caption": "Las veces que entrenamos juntos",
+      "orientation": "square",
+      "tilt": -1,
+      "tapeColor": "yellow"
+    },
+    {
+      "id": "photo-4",
+      "imageUrl": "/assets/images/gallery/photo4.jpg",
+      "caption": "Me encanta que combinemos tan perfectamente. ❤️",
+      "orientation": "vertical",
+      "tilt": 2.5,
+      "tapeColor": "lavender"
+    },
+    {
+      "id": "photo-5",
+      "imageUrl": "/assets/images/gallery/photo5.jpg",
+      "caption": "Amo Las veces que me miras con gran amor",
+      "orientation": "horizontal",
+      "tilt": -1.5,
+      "tapeColor": "blue"
+    },
+    {
+      "id": "photo-6",
+      "imageUrl": "/assets/images/gallery/photo6.jpg",
+      "caption": "Estar contigo es lo mejor que me pudo haber pasado",
+      "orientation": "square",
+      "tilt": 1,
+      "tapeColor": "pink"
+    }
+  ],
+  "playlist": [
+    {
+      "id": "song-1",
+      "title": "Vegetales con Pescado",
+      "artist": "Charles Ans",
+      "description": "De las primeras canciones que te dediqué, mi vida.",
+      "coverUrl": "/assets/images/gallery/cancion1.jpg",
+      "audioUrl": "/assets/music/cancion1.mp3"
+    },
+    {
+      "id": "song-2",
+      "title": "Contigo",
+      "artist": "Carla Morrison",
+      "description": "Una canción perfecta, especialmente regalada por ti.",
+      "coverUrl": "/assets/images/gallery/cancion2.jfif",
+      "audioUrl": "/assets/music/cancion2.mp3"
+    },
+    {
+      "id": "song-3",
+      "title": "Todo Cambió ",
+      "artist": "Camila ",
+      "description": "Una hermosa cancion que sonara en nuestra boda",
+      "coverUrl": "/assets/images/gallery/cancion3.jpg",
+      "audioUrl": "/assets/music/cancion3.mp3"
+    }
+  ],
+  "reasons": [
+    {
+      "id": "reason-1",
+      "number": "01",
+      "text": "Cuando el simple hecho de estar contigo calma todo.",
+      "color": "#F7C8D8"
+    },
+    {
+      "id": "reason-2",
+      "number": "02",
+      "text": "Tu hermosa sonrisa.",
+      "color": "#DCCEF9"
+    },
+    {
+      "id": "reason-3",
+      "number": "03",
+      "text": "Porque sé que es contigo y con nadie más.",
+      "color": "#C9E7F5"
+    },
+    {
+      "id": "reason-4",
+      "number": "04",
+      "text": "El hermoso brillo de tus ojos al mirarme.",
+      "color": "#CDEDDC"
+    },
+    {
+      "id": "reason-5",
+      "number": "05",
+      "text": "Tu pasión cuando hablas de las cosas que te encantan.",
+      "color": "#F9E7A8"
+    },
+    {
+      "id": "reason-6",
+      "number": "06",
+      "text": "La paz que se siente estar cerca de ti al final de un día largo.",
+      "color": "#FFD5C2"
+    },
+    {
+      "id": "reason-1791415270207",
+      "number": "07",
+      "text": "Tu hermosa Forma de pensar.",
+      "color": "#F7C8D8"
+    },
+    {
+      "id": "reason-1791415272230",
+      "number": "08",
+      "text": "Por siempre apoyarme en todas mis locuras.",
+      "color": "#DCCEF9"
+    },
+    {
+      "id": "reason-1791415272748",
+      "number": "09",
+      "text": "El hecho de que te necesito como al oxígeno.",
+      "color": "#C9E7F5"
+    },
+    {
+      "id": "reason-1791415274663",
+      "number": "10",
+      "text": "Todo tu ser",
+      "color": "#CDEDDC"
+    }
+  ],
+  "rememberPlace": {
+    "question": "¿Te acuerdas de este lugar?",
+    "blurredImageUrl": "/assets/images/gallery/memory2.jpg",
+    "revealedTitle": "Aquel rincón secreto",
+    "revealedStory": "El día que encontramos este lugar por casualidad mientras buscábamos dónde refugiarnos de la lluvia. Pedimos dos postres y prometimos volver cada año.",
+    "revealedDate": "[FECHA]"
+  },
+  "calendar": [
+    {
+      "month": "ENERO",
+      "memories": [
+        {
+          "title": "Inicio de año juntos",
+          "text": "Empezando con nuevos propósitos y risas compartidas.",
+          "date": "01 Enero",
+          "image": "/assets/images/gallery/memory1.jpg"
+        }
+      ]
+    },
+    {
+      "month": "MARZO",
+      "memories": [
+        {
+          "title": "Tarde de postres y lluvia",
+          "text": "Comprando donas mientras llovía fuerte afuera.",
+          "date": "15 Marzo",
+          "image": "/assets/images/gallery/memory2.jpg"
+        }
+      ]
+    },
+    {
+      "month": "JUNIO",
+      "memories": [
+        {
+          "title": "Escapada de fin de semana",
+          "text": "Respirando aire fresco lejos del ruido de la ciudad.",
+          "date": "20 Junio",
+          "image": "/assets/images/gallery/memory3.jpg"
+        }
+      ]
+    },
+    {
+      "month": "AGOSTO",
+      "memories": [
+        {
+          "title": "Noche de películas y cobijas",
+          "text": "No terminamos de ver la película pero no importó.",
+          "date": "10 Agosto",
+          "image": "/assets/images/gallery/memory4.jpg"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "startDate": "2023-01-01",
+    "sunrisesOverride": "",
+    "memoriesOverride": "",
+    "customStat1Label": "risas compartidas",
+    "customStat1Value": "9,999+"
+  },
+  "secretSection": {
+    "enabled": true,
+    "prompt": "hay algo escondido aquí.",
+    "inputPlaceholder": "marca de tus tenis deseados",
+    "secretWord": "Puma",
+    "unlockedTitle": "Acceso Secreto Concedido 🗝️",
+    "unlockedMessage": "Queria darte este detalle junto con ellos, los desgraciados sigen rondado por el mundo, en fin estara pronto en tus piecitos para que puedas dissfrutarlos",
+    "unlockedImageUrl": "/assets/images/gallery/regalo.png"
+  },
+  "easterEggs": [
+    {
+      "id": "egg-star",
+      "trigger": "click-star",
+      "targetId": "header-sparkle",
+      "interactionCount": 3,
+      "rewardTitle": "¡Encontraste una estrella escondida! ✨",
+      "rewardMessage": "Cada vez que mires al cielo acuérdate de que eres mi persona favorita en todo el universo.",
+      "rewardEmoji": "🌟"
+    },
+    {
+      "id": "egg-photo-tap",
+      "trigger": "triple-tap-photo",
+      "targetId": "hero-photo",
+      "interactionCount": 3,
+      "rewardTitle": "¡Toque secreto desbloqueado! 📸",
+      "rewardMessage": "Te amo más de lo que las palabras de esta página pueden explicar.",
+      "rewardEmoji": "💌"
+    },
+    {
+      "id": "egg-long-press",
+      "trigger": "long-press",
+      "targetId": "final-badge",
+      "interactionCount": 1,
+      "rewardTitle": "Abrazo digital enviado 🫂",
+      "rewardMessage": "Este botón activa un vale por 1 trillon de besos y tu comidas favorita cuando tú quieras.",
+      "rewardEmoji": "🍰"
+    }
+  ],
+  "surprise": {
+    "enabled": true,
+    "teaserTitle": "todavía falta algo.",
+    "teaserSubtitle": "Toca aquí para abrir este pequeño detalle adicional...",
+    "buttonText": "Abrir sorpresa ✨",
+    "revealedTitle": "¡Feliz cumpleaños, mi amor! 🎂",
+    "revealedMessage": "Este regalo no termina aquí. Hoy tienes un día completamente dedicado a consentirte, hacer lo que más te guste, gracias por hacerme parte de los dias mas especiales para ti. Te amo con todo mi corazon"
+  },
+  "lastSurprise": {
+    "enabled": true,
+    "question": "¿Creíste que ya habíamos terminado?",
+    "revealedTitle": "Una última cosa antes de que cierres esto...",
+    "revealedText": "Quería que supieras que cada línea de código, cada color pastel y cada foto fueron pensados con una sonrisa enorme en la cara, pensando en ti. Eres lo mejor de mis días. Te amo con todo mi corazon mis ojitos color sol 👀✨☀️✨👀",
+    "revealedPhotoUrl": "/assets/images/gallery/memory4.jpg"
+  },
+  "final": {
+    "quote": "“El tiempo pasa volando cuando estoy contigo, pero contigo cada segundo vale la pena.”",
+    "photoUrl": "/assets/images/hero.jpg",
+    "signatureName": "[MI NOMBRE]",
+    "recipientName": "[NOMBRE]"
+  },
+  "sectionVisibility": {
+    "hero": true,
+    "counter": true,
+    "memories": true,
+    "photoStory": true,
+    "gallery": true,
+    "playlist": true,
+    "letter": true,
+    "reasons": true,
+    "voiceMessage": false,
+    "video": true,
+    "randomMemory": true,
+    "rememberPlace": false,
+    "calendar": true,
+    "stats": true,
+    "secretSection": true,
+    "surprise": true,
+    "lastSurprise": true,
+    "final": true
+  }
+}
