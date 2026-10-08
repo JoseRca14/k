@@ -11,21 +11,21 @@
   "intro": {
     "greeting": "Holis",
     "subtitle": "Te hice algo muy especial",
-    "buttonText": "Entrar a tu regalo→"
+    "buttonText": "Entrar a tu regalo"
   },
   "theme": {
-    "currentPreset": "sky-blue",
+    "currentPreset": "pastel-mix",
     "colors": {
-      "pastelPink": "#D6EBF8",
-      "pastelLavender": "#CFE4FA",
+      "pastelPink": "#F7C8D8",
+      "pastelLavender": "#DCCEF9",
       "pastelBlue": "#C9E7F5",
-      "pastelMint": "#C6EDEE",
+      "pastelMint": "#CDEDDC",
       "pastelYellow": "#F9E7A8",
-      "pastelPeach": "#FDE4DC",
-      "background": "#F6FAFD",
-      "text": "#283645",
-      "accent": "#5E9FC6",
-      "secondary": "#7CB9E8"
+      "pastelPeach": "#FFD5C2",
+      "background": "#FFF9F1",
+      "text": "#34313A",
+      "accent": "#E88BA7",
+      "secondary": "#9B86D4"
     },
     "typography": {
       "primaryFont": "Plus Jakarta Sans",
@@ -58,15 +58,16 @@
   },
   "letter": {
     "title": "para ti.",
-    "subtitle": "Unas palabras desde el corazón en tu día",
+    "subtitle": "Unas plabras de mi corazon para ti, mi corazon",
     "paragraphs": [
-      "Hoy que cumples un año más de vida, quise regalarte algo diferente. No una invitación ni una página genérica, sino un rinconcito hecho con mis propias manos para guardar lo que somos y lo que significas para mí.",
-      "Gracias por tu risa cuando las cosas se complican, por tu complicidad en las mañanas tranquilas y por recordarme lo lindo que es compartir el camino con alguien como tú.",
-      "Deseo que este nuevo año esté lleno de proyectos cumplidos, viajes inolvidables, abrazos apretados y días felices. Aquí siempre estaré para celebrar tus victorias y acompañarte en cada paso.",
-      "Feliz cumpleaños, [NOMBRE]. Te quiero con todo mi corazón."
+      "Holi, mi corazón. ¿Recuerdas cuando te dije “aún estoy en la casa de Aida” y eran más de las 7 p.m.? Pues era por este pequeño detalle jajaja. Espero que realmente te guste. ❤️",
+      "Gracias por dejarme formar parte de tu vida, mi niña. Hoy es un día muy especial; hoy hace 26 años nació el amor de mi vida, con quien quiero estar por el resto de la existencia.",
+      "Te amo demasiado, mi corazón. No puedo esperar a que nos casemos y formemos una familia juntos, una niña como la de la imagen del principio, o ese niño que necesitaba a alguien y que, después de algunos años, la tiene al lado suyo. Gracias, amor, en serio, por todo: por apoyarme, por amarme, por ser simplemente tú y solo tú.",
+      "No sé cómo decirte lo que siento, y es simplemente porque no existen palabras, en ningún idioma, ni acción que demuestre siquiera el 1% de todo lo que me haces sentir al estar contigo.",
+      "Te amo con todo mi ser, mi cachetona preciosa. ¡FELIZ CUMPLEAÑOS, MI VIDAAAAA! SONRÍEEEE, QUE HOY ES TU DÍA ESPECIAL. ❤️"
     ],
-    "signOff": "Con todo mi amor,",
-    "date": "[FECHA]"
+    "signOff": "De: El amor de tu vida",
+    "date": "09/10/2026"
   },
   "memories": [
     {
@@ -374,7 +375,7 @@
     "hero": true,
     "counter": true,
     "memories": true,
-    "photoStory": true,
+    "photoStory": false,
     "gallery": true,
     "playlist": true,
     "letter": true,
@@ -383,7 +384,7 @@
     "video": true,
     "randomMemory": true,
     "rememberPlace": false,
-    "calendar": true,
+    "calendar": false,
     "stats": true,
     "secretSection": true,
     "surprise": true,
