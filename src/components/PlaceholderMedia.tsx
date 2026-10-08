@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Camera, Sparkles, Image as ImageIcon } from 'lucide-react'
+import { assetPath } from '../assets/assetPath'
 
 interface ModernImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src?: string
@@ -70,7 +71,7 @@ export const ModernImage: React.FC<ModernImageProps> = ({
         </div>
       )}
       <img
-        src={src}
+        src={assetPath(src)}
         alt={alt}
         className={`w-full h-full object-cover transition-opacity duration-500 ${
           isLoading ? 'opacity-0' : 'opacity-100'

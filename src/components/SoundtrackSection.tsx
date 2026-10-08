@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react'
 import { Play, Pause, Music2, Heart } from 'lucide-react'
 import { useConfig } from '../context/ConfigContext'
 import { ModernImage } from './PlaceholderMedia'
+import { assetPath } from '../assets/assetPath'
 
 export const SoundtrackSection: React.FC = () => {
   const { config } = useConfig()
@@ -17,7 +18,7 @@ export const SoundtrackSection: React.FC = () => {
       if (previewAudioRef.current) {
         previewAudioRef.current.pause()
         if (audioUrl) {
-          previewAudioRef.current.src = audioUrl
+          previewAudioRef.current.src = assetPath(audioUrl)
           previewAudioRef.current.play().catch(() => {
             console.log('Audio file preview not found')
           })

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react'
 import { Play, Pause, Film } from 'lucide-react'
 import { useConfig } from '../context/ConfigContext'
 import { ModernImage } from './PlaceholderMedia'
+import { assetPath } from '../assets/assetPath'
 
 export const VideoSection: React.FC = () => {
   const { config } = useConfig()
@@ -49,8 +50,8 @@ export const VideoSection: React.FC = () => {
           <>
             <video
               ref={videoRef}
-              src={video.videoUrl}
-              poster={video.posterUrl}
+              src={assetPath(video.videoUrl)}
+              poster={assetPath(video.posterUrl)}
               className="w-full h-full object-cover"
               playsInline
               onClick={toggleVideo}
