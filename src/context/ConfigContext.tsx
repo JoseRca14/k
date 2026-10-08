@@ -37,31 +37,47 @@ interface ConfigContextType {
 const STORAGE_KEY = 'birthday_app_config_v1'
 const VERSIONS_KEY = 'birthday_app_versions_v1'
 
+const isAdminRoute = () => {
+  const path = window.location.pathname.toLowerCase()
+  const hash = window.location.hash.toLowerCase()
+  return path.includes('/admin') || hash.includes('admin')
+}
 const ConfigContext = createContext<ConfigContextType | undefined>(undefined)
 
 export const ConfigProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Load initial config from localStorage or default
   const [config, setConfigState] = useState<SiteConfig>(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY)
-      if (saved) {
-        const parsed = JSON.parse(saved)
-        // Merge with defaults to ensure any new keys exist
-        return {
-          ...defaultSiteConfig,
-          ...parsed,
-          theme: { ...defaultSiteConfig.theme, ...parsed.theme },
-          personal: { ...defaultSiteConfig.personal, ...parsed.personal },
-          music: { ...defaultSiteConfig.music, ...parsed.music },
-          letter: { ...defaultSiteConfig.letter, ...parsed.letter },
-          sectionVisibility: { ...defaultSiteConfig.sectionVisibility, ...parsed.sectionVisibility },
-        }
-      }
-    } catch (e) {
-      console.warn('Error loading config from localStorage', e)
-    }
+  // La página pública siempre usa la configuración del proyecto.
+  // Solo /admin utiliza la configuración guardada en Local Storage.
+  if (!isAdminRoute()) {
     return defaultSiteConfig
-  })
+  }
+
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY)
+
+    if (saved) {
+      const parsed = JSON.parse(saved)
+
+      return {
+        ...defaultSiteConfig,
+        ...parsed,
+        theme: { ...defaultSiteConfig.theme, ...parsed.theme },
+        personal: { ...defaultSiteConfig.personal, ...parsed.personal },
+        music: { ...defaultSiteConfig.music, ...parsed.music },
+        letter: { ...defaultSiteConfig.letter, ...parsed.letter },
+        sectionVisibility: {
+          ...defaultSiteConfig.sectionVisibility,
+          ...parsed.sectionVisibility,
+        },
+      }
+    }
+  } catch (e) {
+    console.warn('Error loading config from localStorage', e)
+  }
+
+  return defaultSiteConfig
+})
 
   // History stack for Undo / Redo
   const [history, setHistory] = useState<SiteConfig[]>([config])
