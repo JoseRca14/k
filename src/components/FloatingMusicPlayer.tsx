@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect, useCallback } from 'react'
 import { Play, Pause, Volume2, VolumeX, Music, Disc } from 'lucide-react'
 import { useConfig } from '../context/ConfigContext'
 import { ambientSynth } from '../utils/audioSynth'
+import { assetPath } from '../assets/assetPath'
 
 interface FloatingMusicPlayerProps {
   autoStartTrigger?: boolean
@@ -92,7 +93,7 @@ export const FloatingMusicPlayer: React.FC<FloatingMusicPlayerProps> = ({ autoSt
       {/* Hidden audio element */}
       <audio
         ref={audioRef}
-        src={config.music.backgroundMusicUrl}
+        src={assetPath(config.music.backgroundMusicUrl)}
         loop={config.music.loop}
         preload="auto"
         onError={() => {
